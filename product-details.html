@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- bootstrap v5.0.2 -->
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Details</title>
+
+    <!-- favico icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- icon css -->
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+    <!-- owl carasoul links -->
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- fonts links -->
+    <link rel="stylesheet" href="assets/css/font.css">
+
+    <!-- responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body id="home" class="wide">
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+
+        <!-- top-bar -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-left">
+                    <ul class="list-inline">
+                        <li class="icon-user"><a href="profile.html">
+                            <img src="assets/images/icon-1.png" alt=""/> 
+                            <span>My Profile</span></a>
+                        </li>
+                        <li>
+                            <a href="mailto:support@yourdomain.com">
+                                <i class="bi bi-envelope"></i> 
+                                <span>bellashop@gmail.com</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="top-bar-right">
+                    <ul class="list-inline">
+                        <li class="hidden-xs"><a href="about.html">About</a></li>
+                        <li class="hidden-xs"><a href="blog.html">Blog</a></li>
+                        <li class="hidden-xs"><a href="faq.html">FAQ</a></li>
+                        <li class="hidden-xs"><a href="wishlist.html">My Wishlist</a></li>
+                        <li class="dropdown currency">
+                            <a href="#" class="dropdowns">€ EURO<i class="bi bi-chevron-down"></i></a>
+                            <ul role="menu" class="dropdown-menu">
+                                <li><a href="#">€ EURO</a></li>
+                                <li><a href="#">€ EURO</a></li>
+                                <li><a href="#">€ EURO</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown flags">
+                        <a href="#" class="dropdowns"><img src="assets/images/flag.gif" alt=""/>Eng<i class="bi bi-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><img src="assets/images/flag.gif" alt=""/>Eng</a></li>
+                                <li><a href="#"><img src="assets/images/flag.gif" alt=""/>Eng</a></li>
+                                <li><a href="#"><img src="assets/images/flag.gif" alt=""/>Eng</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+   	    </div>
+        <!-- /top-bar -->
+
+        <!--== header start ==-->
+        <header class="header">
+            <div class="header-wrapper">
+                <div class="container">
+                    
+                    <!-- Logo start -->
+                    <div class="logo">
+                      <a href="index.html">
+                          <img src="assets/images/logo-bella-shop.png" alt="Bella Shop">
+                      </a>
+                    </div>
+                    <!-- Logo end -->
+ 
+                    <!-- Header search start -->
+                    <div class="header-search">
+                      <input type="text" class="form-control" placeholder="What are you looking?">
+                      <button>
+                          <i class="bi bi-search"></i>
+                      </button>
+                    </div>
+                    <!-- Header search end -->
+ 
+                    <!-- Header shopping cart start -->
+                    <div class="header-cart">
+                        <div class="cart-wrapper">
+                            <a href="wishlist.html" class="btn btn-theme-transparent hidden-xs hidden-sm"><i class="bi bi-heart-fill"></i></a>
+                            <a href="compare-products.html" class="btn btn-theme-transparent hidden-xs hidden-sm"><i class="bi bi-arrow-left-right"></i></a>
+                            <a href="#" class="btn btn-theme-transparent" data-toggle="modal" data-target="#popup-cart"><i class="bi bi-cart-fill"></i> <span class="hidden-xs"> 0 item(s) - $0.00 </span> <i class="bi bi-chevron-down down-arrow"></i></a>
+                        </div>
+                    </div>
+                    <!-- Header shopping cart end -->
+
+                </div>
+            </div>
+
+            <!-- navigation -->
+            <div class="navigation-wrapper">
+                <div class="container">
+ 
+                    <!-- Navigation start -->
+                    <nav class="navigation closed clearfix">
+                        <input id="nav-toggle" type="checkbox">
+                        <ul class="nav sf-menu nav-menubar" id="mySidenav">
+                            <li class="active">
+                                <a href="index.html">Homepage</a>
+                                <ul>
+                                    <li><a href="index.html">Homepage 1</a></li>
+                                    <li><a href="index-2.html">Homepage 2</a></li>
+                                    <li><a href="index-3.html">Homepage 3</a></li>
+                                    <li><a href="index-4.html">Homepage 4</a></li>
+                                    <li><a href="index-5.html">Homepage 5</a></li>
+                                    <li><a href="index-6.html">Homepage 6</a></li>
+                                    <li><a href="index-7.html">Homepage 7</a></li>
+                                    <li><a href="index-8.html">Homepage 8</a></li>
+                                    <li><a href="index-9.html">Homepage 9</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="category.html">Shop</a>
+                                <ul>
+                                    <li><a href="category.html">Shop Sidebar Left</a></li>
+                                    <li><a href="category-right.html">Shop Sidebar Right</a></li>
+                                    <li><a href="category-list.html">Shop List View</a></li>
+                                    <li><a href="product-details.html">Product Page</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Blog</a>
+                                <ul>
+                                    <li><a href="blog.html">Blog Sidebar Left </a></li>
+                                    <li><a href="blog-right.html">Blog Sidebar Right</a></li>
+                                    <li><a href="blog-post.html">Blog Single Post</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="portfolio.html">Portfolio</a>
+                                    <ul>
+                                        <li><a href="portfolio.html">Portfolio 3 columns</a></li>
+                                        <li><a href="portfolio-4col.html">Portfolio 4 columns</a></li>
+                                        <li><a href="portfolio-alt.html">Portfolio Alternate</a></li>
+                                        <li><a href="portfolio-single.html">Portfolio Single</a></li>
+                                    </ul>
+                            </li>
+                            <li class="megamenu"><a href="#">Features</a>
+                                <ul>
+                                    <li class="row">
+                                        <div class="col-md-2">
+                                            <h4 class="block-title"><span>Womens</span></h4>
+                                            <ul>
+                                                <li><a href="#">Dresses</a></li>
+                                                <li><a href="#">Rompers & Jumpsuits</a></li>
+                                                <li><a href="#">Bodysuits</a></li>
+                                                <li><a href="#">Shirts & Blouses</a></li>
+                                                <li><a href="#">Coats & Jackets</a></li>
+                                                <li><a href="#">Blazers</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <h4 class="block-title"><span>Mens</span></h4>
+                                            <ul>
+                                                <li><a href="#">T-Shirts & Vests</a></li>
+                                                <li><a href="#">Sweaters & Cardigans</a></li>
+                                                <li><a href="#">Hoodies & Sweats</a></li>
+                                                <li><a href="#">Coats & Jackets</a></li>
+                                                <li><a href="#">Shirts</a></li>
+                                                <li><a href="#">Shorts</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <h4 class="block-title"><span>Pages</span></h4>
+                                            <ul>
+                                                <li><a href="shortcodes.html"><strong>Shortcodes</strong></a></li>
+                                                <li><a href="typography.html"><strong>Typography</strong></a></li>
+                                                <li><a href="coming-soon.html"><strong>Coming soon</strong></a></li>
+                                                <li><a href="error-page.html"><strong>404 Page</strong></a></li>
+                                                <li><a href="about.html"><strong>About</strong></a></li>
+                                                <li><a href="login.html"><strong>Login</strong></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <h4 class="block-title"><span>Header styles</span></h4>
+                                            <ul>
+                                                <li><a href="index-style-1.html"><strong>Header style 1</strong></a></li>
+                                                <li><a href="index-style-2.html"><strong>Header style 2</strong></a></li>
+                                                <li><a href="index-style-3.html"><strong>Header style 3</strong></a></li>
+                                                <li><a href="index-style-4.html"><strong>Header style 4</strong></a></li>
+                                                <li><a href="index-style-5.html"><strong>Header style 5</strong></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="product-list">
+                                                <div class="media">
+                                                    <a class="pull-left media-link" href="#">
+                                                        <img class="media-object" src="assets/images/top-sellers-2.jpg" alt="">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                                                        <div class="rating">
+                                                            <span class="star"></span>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star"></i>
+                                                            
+                                                        </div>
+                                                        <div class="price"><span>$400.00</span> <del>$425.00</del></div>
+                                                    </div>
+                                                </div>
+                                                <div class="media">
+                                                    <a class="pull-left media-link" href="#">
+                                                        <img class="media-object" src="assets/images/top-sellers-3.jpg" alt="">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                                                        <div class="rating">
+                                                            <span class="star"></span>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star"></i>
+                                                        </div>
+                                                        <div class="price"><span>$400.00</span> <del>$425.00</del></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="men.html">Men</a></li>
+                            <li><a href="women.html">Women</a></li>
+                            <li><a href="kids.html">Kids</a></li>
+                            <li><a href="new.html">New</a></li>
+                            <li class="sale"><a href="sale.html">Sale</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+
+                        <label for="nav-toggle" class="icon-burger nav-burger">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </label>
+
+                    </nav>
+                    <!-- Navigation start -->
+ 
+                </div>
+            </div>
+            <!-- /navigation -->
+
+        </header>
+        <!--== /header start ==-->
+        
+        <!--== CONTENT AREA START ==--> 
+        <div class="content-area">
+
+            <!-- PAGE -->
+            <section class="page-section">
+                <div class="container">
+
+                    <div class="row product-single">
+                        <div class="col-md-6">
+                            <div class="badges">
+                                <div class="hot">hot</div>
+                                <div class="new">new</div>
+                            </div>
+                            <div class="owl-carousel owl-theme img-carousel">
+                                <div class="item">
+                                    <a href="assets/images/product-1-big.jpg" data-gal="prettyPhoto">
+                                        <img class="img-responsive" src="assets/images/product-1-big.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/images/product-1-big.jpg" data-gal="prettyPhoto">
+                                        <img class="img-responsive" src="assets/images/product-1-big.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/images/product-1-big.jpg" data-gal="prettyPhoto">
+                                        <img class="img-responsive" src="assets/images/product-1-big.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/images/product-1-big.jpg" data-gal="prettyPhoto">
+                                        <img class="img-responsive" src="assets/images/product-1-big.jpg" alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row product-thumbnails">
+                                <div class="col-xs-2 col-sm-2 col-md-3"><a href="#" onclick="jQuery('.img-carousel').trigger('to.owl.carousel', [0, 300]);"><img src="assets/images/product-thumb-1.jpg" alt=""/></a></div>
+                                <div class="col-xs-2 col-sm-2 col-md-3"><a href="#" onclick="jQuery('.img-carousel').trigger('to.owl.carousel', [1, 300]);"><img src="assets/images/product-thumb-2.jpg" alt=""/></a></div>
+                                <div class="col-xs-2 col-sm-2 col-md-3"><a href="#" onclick="jQuery('.img-carousel').trigger('to.owl.carousel', [2, 300]);"><img src="assets/images/product-thumb-3.jpg" alt=""/></a></div>
+                                <div class="col-xs-2 col-sm-2 col-md-3"><a href="#" onclick="jQuery('.img-carousel').trigger('to.owl.carousel', [3, 300]);"><img src="assets/images/product-thumb-4.jpg" alt=""/></a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="back-to-category">
+                                <span class="link">
+                                    <i class="bi bi-chevron-double-left"></i> Back to 
+                                    <a href="category.html">Category</a>
+                                </span>
+                            </div>
+                            <h2 class="product-title">Standard Product Header Here</h2>
+                            <div class="product-rating clearfix">
+                                <div class="rating">
+                                    <span class="star"></span>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                </div>
+                                <a class="reviews" href="#">16 reviews</a> | <a class="add-review" href="#">Add Your Review</a>
+                            </div>
+                            <div class="product-availability">Availability: <strong>In stock</strong> 21 Item(s)</div>
+
+                            <div class="product-price">$400.00</div>
+                            <hr class="page-divider"/>
+
+                            <div class="product-text">
+                                <p>Etiam eu justo ut nisi sollicitudin bibendum. Fusce sed dui ac turpis vulputate tincidunt vel sed magna. Pellentesque <strong>pretium</strong> mollis metus vel feugiat. Cum sociis natoque penatibus <strong>et magnis</strong> dis parturient montes, nascetur ridiculus mus. <strong>Vestibulum</strong> commodo mauris eget sapien posuere, id <a href="#">efficitur mi tristique</a>.</p>
+                                <ul>
+                                    <li>- Cras tristique neque a mauris volutpat, eget sodales neque elementum.</li>
+                                    <li>- Vestibulum iaculis velit sed dolor suscipit pretium.</li>
+                                    <li>- Etiam mattis risus id leo imperdiet tincidunt.</li>
+                                </ul>
+                            </div>
+                            <hr class="page-divider"/>
+
+                            <form action="#" class="row variable">
+                                <div class="col-sm-6">
+                                    <div class="form-group selectpicker-wrapper">
+                                        <select
+                                            id="exampleSelect1"
+                                            class="selectpicker input-price" data-live-search="true" data-width="100%"
+                                            data-toggle="tooltip" title="Select">
+                                            <option>Select Your Size</option>
+                                            <option>Size 1</option>
+                                            <option>Size 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group selectpicker-wrapper">
+                                        <select
+                                            id="exampleSelect2"
+                                            class="selectpicker input-price" data-live-search="true" data-width="100%"
+                                            data-toggle="tooltip" title="Select">
+                                            <option>Select Your Color</option>
+                                            <option>Color 1</option>
+                                            <option>Color 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <div class="buttons">
+                                <div class="quantity">
+                                    <button class="btn"><i class="bi bi-dash-lg"></i></button>
+                                    <input class="form-control qty" placeholder="1" step="1" min="1" name="quantity" title="Qty">
+                                    <button class="btn"><i class="bi bi-plus-lg"></i></button>
+                                </div>
+                                <button class="btn btn-theme btn-cart btn-icon-left" type="submit"><i class="bi bi-cart-fill"></i>Add to cart</button>
+                                <button class="btn btn-theme btn-wish-list"><i class="bi bi-heart-fill"></i></button>
+                                <button class="btn btn-theme btn-compare"><i class="bi bi-arrow-left-right"></i></button>
+                            </div>
+
+                            <table>
+                                <tr>
+                                    <td class="title">Category:</td>
+                                    <td>Men Dress</td>
+                                </tr>
+                                <tr>
+                                    <td class="title">Product Code:</td>
+                                    <td>PS08</td>
+                                </tr>
+                                <tr>
+                                    <td class="title">Tags:</td>
+                                    <td>Fashion - clothes - Dress - Men - jean</td>
+                                </tr>
+                            </table>
+                           
+                            <ul class="social-icons list-inline">
+                                <li><a href="#" class="facebook"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="#" class="twitter"><i class="bi bi-twitter"></i></a></li>
+                                <li><a href="#" class="instagram"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="#" class="pinterest"><i class="bi bi-whatsapp"></i></a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- /PAGE -->
+
+            <!-- last-page start -->
+            <section class="last-page">
+                <div class="container">
+                    <div class="row blocks shop-info-banners">
+                        <div class="col-xl-4 col-md-12 col-sm-12">
+                            <div class="block">
+                                <div class="media">
+                                    <div class="pull-right"><i class="bi bi-gift-fill"></i></div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Buy 1 Get 1</h4>
+                                        Proin dictum elementum velit. Fusce euismod consequat ante.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-12 col-sm-12">
+                            <div class="block">
+                                <div class="media">
+                                    <div class="pull-right"><i class="bi bi-chat-quote-fill"></i></div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Call to Free</h4>
+                                        Proin dictum elementum velit. Fusce euismod consequat ante.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-12 col-sm-12">
+                            <div class="block">
+                                <div class="media">
+                                    <div class="pull-right"><i class="bi bi-trophy-fill"></i></div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Money Back!</h4>
+                                        Proin dictum elementum velit. Fusce euismod consequat ante.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- last-page end -->
+
+            <!-- PAGE -->
+            <section class="page-section">
+                <div class="container">
+                    <div class="tabs-wrapper content-tabs">
+
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Item Description</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Reviews (2)</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade item-description" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <p>Integer egestas, orci id condimentum eleifend, nibh nisi pulvinar eros, vitae ornare massa neque ut orci. Nam aliquet lectus sed odio eleifend, at iaculis dolor egestas. Nunc elementum pellentesque augue sodales porta. Etiam aliquet rutrum turpis, feugiat sodales ipsum consectetur nec. </p>
+                                <p>Morbi imperdiet lacus nec ante blandit, sit amet fermentum magna faucibus. Nunc nec libero id urna vulputate venenatis. Aenean vulputate odio felis, in rhoncus sapien auctor nec. Donec non posuere sem. Ut quis egestas libero, mattis gravida nibh. Phasellus a nisi ac mi luctus tincidunt et non est. Proin ac orci rhoncus arcu bibendum molestie vel et metus. Aenean iaculis purus et velit iaculis, nec convallis ipsum ornare. Integer a orci enim.</p>
+                            </div>
+                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                
+                                <div class="comments">
+                                    <div class="media comment">
+                                        <a href="#" class="pull-left comment-avatar">
+                                            <img alt="" src="assets/images/avatar-1.jpg" class="media-object">
+                                        </a>
+                                        <div class="media-body">
+                                            <p class="comment-meta"><span class="comment-author"><a href="#">User Name Here</a> <span class="comment-date"> 26 days ago <i class="bi bi-flag-fill"></i></span></span></p>
+                                            <p class="comment-text">Donec ullamcorper nulla non metus auctor fringilla. Etiam porta sem malesuada magna mollis euismd. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere.</p>
+                                        </div>
+                                    </div>
+                                    <div class="media comment">
+                                        <a href="#" class="pull-left comment-avatar">
+                                            <img alt="" src="assets/images/avatar-3.jpg" class="media-object">
+                                        </a>
+                                        <div class="media-body">
+                                            <p class="comment-meta"><span class="comment-author"><a href="#">User Name Here</a> <span class="comment-date"> 26 days ago <i class="bi bi-flag-fill"></i></span></span></p>
+                                            <p class="comment-text">Donec ullamcorper nulla non metus auctor fringilla. Etiam porta sem malesuada magna mollis euismd. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comments-form">
+                                    <h4 class="block-title">Add a Review</h4>
+                                    <form method="post" action="#" name="comments-form" id="comments-form">
+                                        <div class="form-group"><input type="text" placeholder="Your name and surname" class="form-control" title="comments-form-name" name="comments-form-name"></div>
+                                        <div class="form-group"><input type="text" placeholder="Your email adress" class="form-control" title="comments-form-email" name="comments-formemail"></div>
+                                        <div class="form-group"><textarea placeholder="Your message" class="form-control" title="comments-form-comments" name="comments-form-comments" rows="6"></textarea></div>
+                                        <div class="form-group"><button type="submit" class="btn btn-theme btn-theme-transparent btn-icon-left" id="submit"><i class="bi bi-chat-fill"></i> Review</button></div>
+                                    </form>
+                                </div>
+                                <!-- // -->
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- /PAGE -->
+
+            <!-- BRAND & CLIENTS start -->
+            <section class="top-products brand">
+                <div class="container">
+                    <h2 class="section-title"><span>Brand &amp; Clients</span></h2>
+                    <div class="partners-carousel">
+                        <div class="owl-carousel owl-theme project-carousel">
+                            <div><a href="#"><img src="assets/images/brand-logo.jpg" alt=""/></a></div>
+                            <div><a href="#"><img src="assets/images/brand-logo.jpg" alt=""/></a></div>
+                            <div><a href="#"><img src="assets/images/brand-logo.jpg" alt=""/></a></div>
+                            <div><a href="#"><img src="assets/images/brand-logo.jpg" alt=""/></a></div>
+                            <div><a href="#"><img src="assets/images/brand-logo.jpg" alt=""/></a></div>
+                            <div><a href="#"><img src="assets/images/brand-logo.jpg" alt=""/></a></div>
+                            <div><a href="#"><img src="assets/images/brand-logo.jpg" alt=""/></a></div>
+                            <div><a href="#"><img src="assets/images/brand-logo.jpg" alt=""/></a></div>
+                            <div><a href="#"><img src="assets/images/brand-logo.jpg" alt=""/></a></div>
+                            <div><a href="#"><img src="assets/images/brand-logo.jpg" alt=""/></a></div>
+                            <div><a href="#"><img src="assets/images/brand-logo.jpg" alt=""/></a></div>
+                            <div><a href="#"><img src="assets/images/brand-logo.jpg" alt=""/></a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- BRAND & CLIENTS end -->
+
+        </div>   
+        <!--== CONTENT AREA END ==-->
+
+        <!-- Footer start -->
+        <footer class="footer">
+            <div class="footer-widgetes">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-xl-3 col-md-12 col-sm-12">
+                            <div class="widget">
+                                <h4 class="widget-title">About Us</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sollicitudin ultrices suscipit. Sed commodo vel mauris vel dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <ul class="social-icons">
+                                    <li><a href="#" class="facebook"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="#" class="twitter"><i class="bi bi-twitter"></i></a></li>
+                                    <li><a href="#" class="instagram"><i class="bi bi-instagram"></i></a></li>
+                                    <li><a href="#" class="pinterest"><i class="bi bi-whatsapp"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-12 col-sm-12">
+                            <div class="widget my-footer">
+                                    <h4 class="widget-title">News Letter</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <form>
+                                        <div class="form-group">
+                                            <input class="form-control" type="text" placeholder="Enter Your Email and Get $10 Cash"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn btn-theme btn-theme-transparent subscribe">Subscribe</button>
+                                        </div>
+                                    </form>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-12 col-sm-12">
+                            <div class="widget widget-categories my-footer">
+                                <h4 class="widget-title">Information</h4>
+                                <ul>
+                                    <li><a href="about.html"><i class="bi bi-arrow-right-circle-fill"></i>About Us</a></li>
+                                    <li><a href="#"><i class="bi bi-arrow-right-circle-fill"></i>Delivery Information</a></li>
+                                    <li><a href="contact.html"><i class="bi bi-arrow-right-circle-fill"></i>Contact Us</a></li>
+                                    <li><a href="#"><i class="bi bi-arrow-right-circle-fill"></i>Terms and Conditions</a></li>
+                                    <li><a href="#"><i class="bi bi-arrow-right-circle-fill"></i>Private Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-12 col-sm-12">
+                            <div class="widget widget-tag-cloud">
+                                <h4 class="widget-title">Item Tags</h4>
+                                <ul>
+                                    <li><a href="#">Fashion</a></li>
+                                    <li><a href="#">Jeans</a></li>
+                                    <li><a href="#">Top Sellers</a></li>
+                                    <li><a href="#">E commerce</a></li>
+                                    <li><a href="#">Hot Deals</a></li>
+                                    <li><a href="#">Supplier</a></li>
+                                    <li><a href="#">Shop</a></li>
+                                    <li><a href="#">Theme</a></li>
+                                    <li><a href="#">Website</a></li>
+                                    <li><a href="#">Isamercan</a></li>
+                                    <li><a href="#">Themeforest</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-meta">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-xl-7 col-md-12 col-sm-12">
+                            <div class="copyright">2021 BELLA SHOP | All Rights Reserved | Design & Developed By Rammo Paul</div>
+                        </div>
+                        <div class="col-xl-5 col-md-12 col-sm-12">
+                            <div class="payments">
+                                <ul>
+                                    <li><img src="assets/images/visa.jpg" alt=""/></li>
+                                    <li><img src="assets/images/mastercard.jpg" alt=""/></li>
+                                    <li><img src="assets/images/paypal.jpg" alt=""/></li>
+                                    <li><img src="assets/images/american-express.jpg" alt=""/></li>
+                                    <li><img src="assets/images/visa-electron.jpg" alt=""/></li>
+                                    <li><img src="assets/images/maestro.jpg" alt=""/></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer end -->
+        
+    </div>
+    <!-- /Wrapper -->
+
+    <!-- js links -->
+    <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <!-- custome js -->
+    <script src="assets/js/custom.js"></script>
+    
+</body>
+</html>
